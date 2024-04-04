@@ -10,11 +10,13 @@
   "author": "Gourav Chaudhary",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
+    "expess": "^0.0.1-security",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
     "mongoose": "^8.3.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GouravSittam/Incredible-India.git"
