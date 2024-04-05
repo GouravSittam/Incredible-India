@@ -16,7 +16,9 @@
     "express": "^4.19.2",
     "express-session": "^1.18.0",
     "method-override": "^3.0.0",
-    "mongoose": "^8.3.0"
+    "mongoose": "^8.3.0",
+    "node": "^18.20.1",
+    "nodemon": "^3.1.0"
   },
   "repository": {
     "type": "git",
