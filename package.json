@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
     "expess": "^0.0.1-security",
     "express": "^4.19.2",
     "express-session": "^1.18.0",
