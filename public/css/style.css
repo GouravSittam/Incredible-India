@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+   
 }
 
 .container{
@@ -42,11 +43,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* color: #222222; */
  }
 
  .f-info-socials i{
     font-size: 1.5rem;
     margin-right: 1rem;
+    color: #222222;
  }
 
  .f-info{
