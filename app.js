@@ -19,6 +19,7 @@ app.use(methodOverride("_method"));
 app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
+
 main()
   .then(() => {
     console.log("connected to DB");
@@ -27,8 +28,10 @@ main()
     console.log(err);
   });
 
+  //home
 app.get("/", (req, res) => {
-  res.send("Hello, I am groot");
+  // res.send("Hello, I am groot");
+  res.render("listings/home.ejs");
 });
 
 //New Route

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India Tourism</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Hero Section */
+    
+    .hero {
+      position: relative;
+      height: 600px;
+      overflow: hidden;
+    }
+
+    .hero video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background-size: cover;
+      transition: 1s opacity;
+    }
+
+    .hero .hero-content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Featured Destinations */
+    .featured-destinations {
+      padding: 50px 0;
+    }
+
+    .destination-card {
+      margin-bottom: 30px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .destination-card img {
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .destination-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .destination-card .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .destination-card:hover .overlay {
+      opacity: 1;
+    }
+
+    .overlay h4 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .overlay p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .overlay a {
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .overlay a:hover {
+      color: #007bff;
+    }
+
+    /* About Section */
+    .about {
+      padding: 50px 0;
+      background-color: #f8f9fa;
+    }
+
+    .about h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+
+    .about p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+      padding: 50px 0;
+    }
+
+    .testimonial-card {
+      background-color: #f8f9fa;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      text-align: center;
+    }
+
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-card p {
+      font-size: 1.2rem;
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-card h4 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .testimonial-card h5 {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+
+    /* navbar */
+.navbar{
+    height: 5rem;
+    background-color: white !important;
+}
+
+.fa-centos {
+    color: #735DA5;
+    font-size: 3rem;
+}
+
+.nav-link{
+    color:#222222 !important ;
+}
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="lead navbar navbar-expand-md  bg-body-light border-bottom sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fa-brands fa-centos"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/listings">All Listings</a>
+                <a class="nav-link" href="/listings/new">Add new Listings</a>
+                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+            </div>
+        </div>
+    </div>
+</nav>
+  <!-- Hero Section -->
+  <div class="hero">
+    <video autoplay loop muted>
+      <source src="https://media.istockphoto.com/id/1350227028/video/aerial-view-of-foggy-mountains-during-monsoon-in-india.mp4?s=mp4-640x640-is&k=20&c=D39p0qnRlpMwzONkZiItcLKYxdQu3aG53GSdZhgQEM0=" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Discover the Wonders of India</h1>
+      <p>Explore the rich culture, stunning landscapes, and vibrant cities of India.</p>
+      <a href="#" class="btn btn-primary btn-lg">Book Now</a>
+    </div>
+  </div>
+
+  <!-- Featured Destinations -->
+  <div class="featured-destinations">
+    <div class="container">
+      <h2 class="text-center mb-5">Featured Destinations</h2>
+      <div class="row">
+        <div class="col-md-4 destination-card">
+          <img src="destination1.jpg" class="img-fluid rounded" alt="Destination 1">
+          <div class="overlay">
+            <h4>Destination 1</h4>
+            <p>Explore the rich history and cultural heritage of this amazing destination.</p>
+            <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 destination-card">
+          <img src="destination2.jpg" class="img-fluid rounded" alt="Destination 2">
+          <div class="overlay">
+            <h4>Destination 2</h4>
+            <p>Immerse yourself in the stunning natural beauty and vibrant local life.</p>
+            <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 destination-card">
+          <img src="destination3.jpg" class="img-fluid rounded" alt="Destination 3">
+          <div class="overlay">
+            <h4>Destination 3</h4>
+            <p>Discover the architectural wonders and delicious cuisine of this captivating place.</p>
+            <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="featured-destinations">
+    <div class="container">
+      <h2 class="text-center mb-5">Featured Destinations</h2>
+      <div class="row">
+        <div class="col-md-4 destination-card">
+          <img src="destination1.jpg" class="img-fluid rounded" alt="Destination 1">
+          <div class="overlay">
+            <h4>Destination 1</h4>
+            <p>Explore the rich history and cultural heritage of this amazing destination.</p>
+            <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 destination-card">
+          <img src="destination2.jpg" class="img-fluid rounded" alt="Destination 2">
+          <div class="overlay">
+            <h4>Destination 2</h4>
+            <p>Immerse yourself in the stunning natural beauty and vibrant local life.</p>
+            <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 destination-card">
+          <img src="destination3.jpg" class="img-fluid rounded" alt="Destination 3">
+          <div class="overlay">
+            <h4>Destination 3</h4>
+            <p>Discover the architectural wonders and delicious cuisine of this captivating place.</p>
+            <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- //packages -->
+  <div class="packages">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Packages</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="package-card">
+            <img src="package1.jpg" alt="Package 1">
+            <div class="card-body">
+              <h4>Classic India Tour</h4>
+              <p>Explore the highlights of India, including the Taj Mahal, Rajasthan, and more.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img src="package2.jpg" alt="Package 2">
+            <div class="card-body">
+              <h4>Spiritual India</h4>
+              <p>Discover the spiritual heart of India through yoga, meditation, and temple visits.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="package-card">
+            <img src="package3.jpg" alt="Package 3">
+            <div class="card-body">
+              <h4>Adventure in the Himalayas</h4>
+              <p>Embark on an unforgettable adventure through the stunning Himalayan mountains.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div class="about">
+    <div class="container">
+      <h2 class="text-center mb-5">About India</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>India is a vast and diverse country with a rich cultural heritage and a long history. From the snow-capped Himalayas in the north to the tropical beaches of the south, India offers a vast array of natural wonders and breathtaking landscapes.</p>
+          <p>The country is also home to vibrant cities, ancient temples, and a thriving arts and culinary scene. Whether you're interested in adventure, spirituality, or simply immersing yourself in a new culture, India has something to offer every traveler.</p>
+        </div>
+        <div class="col-md-6">
+          <p>India's cultural diversity is unparalleled, with a multitude of languages, religions, and traditions represented across the country. From the majestic Taj Mahal to the serene backwaters of Kerala, India is a land of contrasts that will captivate and inspire you.</p>
+          <p>As you explore India, you'll discover a warm and welcoming people, a rich history, and a unique blend of modernity and tradition that will leave a lasting impression on your heart and mind.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div class="testimonials">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Travelers Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <img src="testimonial1.jpg" alt="Testimonial 1">
+            <p>"India was a life-changing experience for me. The stunning landscapes, the vibrant culture, and the warm hospitality of the people left a deep impression on my heart."</p>
+            <h4>John Doe</h4>
+            <h5>Traveler</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <img src="testimonial2.jpg" alt="Testimonial 2">
+            <p>"I've been to many countries, but India stands out as one of the most unique and memorable destinations. The diversity, the history, and the sheer energy of the country are truly awe-inspiring."</p>
+            <h4>Jane Smith</h4>
+            <h5>Travel Blogger</h5>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <img src="testimonial3.jpg" alt="Testimonial 3">
+            <p>"Traveling through India was a transformative experience for me. The country's spiritual depth, its rich cultural heritage, and the kindness of its people have left an indelible mark on my soul."</p>
+            <h4>Michael Johnson</h4>
+            <h5>Adventure Traveler</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
