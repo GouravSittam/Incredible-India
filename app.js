@@ -29,7 +29,7 @@ main()
   });
 
   //home
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   // res.send("Hello, I am groot");
   res.render("listings/home.ejs");
 });
