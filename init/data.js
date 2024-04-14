@@ -3,7 +3,7 @@ const sampleListings = [
     title: "Taj Mahal Retreat",
     description:
       "Experience the grandeur of the Taj Mahal in this luxurious retreat. Explore the rich history and culture of Agra.",
-    image:"https://cf.bstatic.com/xdata/images/hotel/max1024x768/6822877.jpg?k=2269f1fca3724601cd5ff9a65c7c93bc3f7ecf309b3b387411acf530521dbbd6&o=&hp=1",
+    image:"https://images.pexels.com/photos/3361480/pexels-photo-3361480.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 1500,
     location: "Agra",
     state: "Uttar Pradesh",
@@ -13,7 +13,7 @@ const sampleListings = [
     title: "Goa Beachfront Villa",
     description:
       "Relax on the sandy beaches of Goa in this beautiful beachfront villa with a private pool.",
-    image:"https://images.unsplash.com/photo-1529236180072-ffc4c847ff24?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/339565780.jpg?k=0919d94101ace427d6ced6485c28db916a8b70a9c9cce1aaa0a29da410b702a0&o=",
     price: 1200,
     location: "Goa",
     state: "Goa",
@@ -23,7 +23,7 @@ const sampleListings = [
     title: "Kerala Backwater Houseboat",
     description:
       "Cruise through the serene backwaters of Kerala in this traditional houseboat. Witness picturesque landscapes and local life.",
-    image:"https://images.unsplash.com/photo-1616543382503-d3501dcb960f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://keralatravelboutique.com/wp-content/uploads/2017/06/4-ONE-BED-AC.LUXURY-HONEY-MOON.jpg",
     price: 1000,
     location: "Alappuzha",
     state: "Kerala",
@@ -33,7 +33,7 @@ const sampleListings = [
     title: "Jaipur Royal Palace",
     description:
       "Live like royalty in this majestic palace in the Pink City of Jaipur. Immerse yourself in the vibrant culture and history of Rajasthan.",
-    image:"https://images.unsplash.com/photo-1611963451988-1313b07d3f62?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/07/d5/77/rambagh-palace-exterior.jpg?w=1400&h=-1&s=1",
     price: 2000,
     location: "Jaipur",
     state: "Rajasthan",
@@ -43,7 +43,7 @@ const sampleListings = [
     title: "Leh-Ladakh Adventure Camp",
     description:
       "Embark on an adventure in the breathtaking landscapes of Leh-Ladakh. Camp under the stars and explore the rugged terrain.",
-    image:"https://images.unsplash.com/photo-1600501851304-1a55c6135cf2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://media1.thrillophilia.com/filestore/r4dg8cxb7o8xvd5yl9t0e48lh16g_dl.beatsnoop.com-final-CtDVrq3O7F.jpg?w=580&dpr=2",
     price: 1800,
     location: "Leh",
     state: "Ladakh",
@@ -53,7 +53,7 @@ const sampleListings = [
     title: "Varanasi Spiritual Retreat",
     description:
       "Find inner peace in the spiritual city of Varanasi. Experience the ancient rituals on the banks of the Ganges.",
-    image:"https://images.unsplash.com/photo-1529572892816-00e6784c0799?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://treeofliferesorts.com/wp-content/uploads/2024/01/1-4.webp",
     price: 900,
     location: "Varanasi",
     state: "Uttar Pradesh",
@@ -63,7 +63,7 @@ const sampleListings = [
     title: "Munnar Hill Station Cottage",
     description:
       "Escape to the tranquil hills of Munnar in this cozy cottage surrounded by tea plantations. Enjoy the cool breeze and scenic views.",
-    image:"https://images.unsplash.com/photo-1520286874555-9d3a9f5779d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/13691357/pexels-photo-13691357.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 1500,
     location: "Munnar",
     state: "Kerala",
@@ -73,7 +73,7 @@ const sampleListings = [
     title: "Udaipur Lakefront Villa",
     description:
       "Experience the romance of Udaipur in this elegant lakefront villa. Admire the stunning sunset over Lake Pichola.",
-    image:"https://images.unsplash.com/photo-1568716320237-7a8062e8e99f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/14767761/pexels-photo-14767761.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 2500,
     location: "Udaipur",
     state: "Rajasthan",
@@ -83,7 +83,7 @@ const sampleListings = [
     title: "Andaman Island Paradise",
     description:
       "Discover paradise on the Andaman Islands in this secluded beach resort. Dive into crystal-clear waters and relax on pristine beaches.",
-    image:"https://images.unsplash.com/photo-1584800304770-cc03c6ca4585?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 3000,
     location: "Andaman Islands",
     state: "Andaman and Nicobar Islands",
@@ -93,7 +93,7 @@ const sampleListings = [
     title: "Mumbai City Apartment",
     description:
       "Experience the hustle and bustle of Mumbai in this modern city apartment. Explore Bollywood, markets, and iconic landmarks.",
-    image:"https://images.unsplash.com/photo-1529100748327-e6b2f3e5c0a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/12189746/pexels-photo-12189746.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 1600,
     location: "Mumbai",
     state: "Maharashtra",
@@ -103,7 +103,7 @@ const sampleListings = [
     title: "Darjeeling Tea Estate Bungalow",
     description:
       "Immerse yourself in the aroma of tea in this charming bungalow in Darjeeling. Explore tea gardens and enjoy panoramic views of the Himalayas.",
-    image:"https://images.unsplash.com/photo-1614371248004-e2e5a5e9b622?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/10440693/pexels-photo-10440693.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 1200,
     location: "Darjeeling",
     state: "West Bengal",
@@ -113,7 +113,7 @@ const sampleListings = [
     title: "Hampi Heritage Homestay",
     description:
       "Step back in time in the UNESCO World Heritage Site of Hampi. Stay in a traditional homestay and explore ancient ruins.",
-    image:"https://images.unsplash.com/photo-1584120788497-6fc5fc855ad7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/13769652/pexels-photo-13769652.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 800,
     location: "Hampi",
     state: "Karnataka",
@@ -123,7 +123,7 @@ const sampleListings = [
     title: "Rishikesh Yoga Retreat",
     description:
       "Rejuvenate your mind, body, and soul in the yoga capital of the world. Practice yoga and meditation in tranquil surroundings.",
-    image:"https://images.unsplash.com/photo-1593173930048-4a2c9259cfc3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/20035462/pexels-photo-20035462/free-photo-of-elderly-woman-meditating-in-front-of-a-statue-of-parvati-on-the-ganges.jpeg?auto=compress&cs=tinysrgb&w=600",
     price: 1100,
     location: "Rishikesh",
     state: "Uttarakhand",
@@ -133,7 +133,7 @@ const sampleListings = [
     title: "Puducherry French Villa",
     description:
       "Experience a slice of France in the charming town of Puducherry. Stay in a colonial villa and stroll along the picturesque promenade.",
-    image:"https://images.unsplash.com/photo-1617622562357-1162bfa20134?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://i0.wp.com/somanytraveltales.com/wp-content/uploads/2020/08/PNFrench-Quarters-Pondicherry-@Shameera-1_edited-scaled.jpg?fit=1024%2C768&ssl=1",
     price: 2200,
     location: "Puducherry",
     state: "Puducherry",
@@ -143,7 +143,7 @@ const sampleListings = [
     title: "Shimla Mountain Cabin",
     description:
       "Escape to the cool hills of Shimla in this cozy mountain cabin. Enjoy panoramic views and trekking trails.",
-    image:"https://images.unsplash.com/photo-1541895129-f73f04fffae5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://res.cloudinary.com/simplotel/image/upload/w_5000,h_2812/x_0,y_0,w_5000,h_2812,r_0,c_crop,q_80,fl_progressive/w_500,f_auto,c_fit/woodays-resort-shimla/Woodays_Resort_Shimla__Luxury_Resorts_in_Kufri_Cottages_in_Shimla_9112",
     price: 1800,
     location: "Shimla",
     state: "Himachal Pradesh",
