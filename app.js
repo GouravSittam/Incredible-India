@@ -28,6 +28,17 @@ main()
     console.log(err);
   });
 
+
+  app.get("/", (req, res) => {
+    // res.send("Hello, I am groot");
+    res.render("listings/home.ejs");
+  });
+
+  app.get("/book", (req, res) => {
+    // res.send("Hello, I am groot");
+    res.render("listings/book.ejs");
+  });
+
   //home
 app.get("/home", (req, res) => {
   // res.send("Hello, I am groot");

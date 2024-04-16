@@ -1,0 +1,87 @@
+<% layout("/layouts/boilerplate") %>
+<section class="reservation" id="reservation" style="margin-top: 7rem;">
+    <h1 class="heading" style="color: black">Book Now</h1>
+    <form action="/listings">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Name <span class="text-danger">*</span></label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email">Email <span class="text-danger">*</span></label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="check-in">Check-in <span class="text-danger">*</span></label>
+              <input type="date" class="form-control" id="check-in">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="check-out">Check-out <span class="text-danger">*</span></label>
+              <input type="date" class="form-control" id="check-out">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="adults">Adults <span class="text-danger">*</span></label>
+              <select class="form-control" id="adults">
+                <option value="1">1 adult</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="6">6 adults</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="children">Children <span class="text-danger">*</span></label>
+              <select class="form-control" id="children">
+                <option value="1">1 child</option>
+                <option value="2">2 children</option>
+                <option value="3">3 children</option>
+                <option value="4">4 children</option>
+                <option value="5">5 children</option>
+                <option value="6">6 children</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="rooms">Rooms <span class="text-danger">*</span></label>
+              <select class="form-control" id="rooms">
+                <option value="1">1 room</option>
+                <option value="2">2 rooms</option>
+                <option value="3">3 rooms</option>
+                <option value="4">4 rooms</option>
+                <option value="5">5 rooms</option>
+                <option value="6">6 rooms</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="room-type">Room Type <span class="text-danger">*</span></label>
+              <select class="form-control" id="room-type">
+                <option value="1">Exclusive Rooms</option>
+                <option value="2">Family Rooms</option>
+                <option value="3">Daily Rooms</option>
+                <option value="4">Panoramic Rooms</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <button type="button" class="btn btn-primary edit-btn" onclick="alert('Room Booked Successfully. Click ok to redirect')">Check Availability</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>

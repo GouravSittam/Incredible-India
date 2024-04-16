@@ -109,7 +109,8 @@ body{
 
  /* Show Page */
 .show-img{
-    height: 30vh;
+    height: 70vh;
+    width: 50vw !important;
  }
  
  .btns{
