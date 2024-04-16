@@ -153,7 +153,7 @@ const sampleListings = [
     title: "Pune Vineyard Resort",
     description:
       "Indulge in wine tasting and relaxation at a vineyard resort in Pune. Experience the charm of the countryside.",
-    image:"https://images.unsplash.com/photo-1576628386661-72ed3f8ed0df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9e/69/63/garden.jpg?w=700&h=-1&s=1",
     price: 1200,
     location: "Pune",
     state: "Maharashtra",
@@ -163,7 +163,7 @@ const sampleListings = [
     title: "Kolkata Cultural Homestay",
     description:
       "Immerse yourself in the rich culture and heritage of Kolkata in a traditional homestay. Explore historic landmarks and taste local cuisine.",
-    image:"https://images.unsplash.com/photo-1607281987499-4c8cf319d80e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/18847272/pexels-photo-18847272/free-photo-of-abol-tabol-puja-pandal-kolkata-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 2500,
     location: "Kolkata",
     state: "West Bengal",
@@ -173,7 +173,7 @@ const sampleListings = [
     title: "Rajkot Heritage Haveli",
     description:
       "Step into the bygone era in a heritage haveli in Rajkot. Experience royal hospitality and explore the vibrant markets.",
-    image:"https://images.unsplash.com/photo-1541731559977-d68292c34b19?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.trvl-media.com/lodging/16000000/15690000/15685200/15685196/9b148651.jpg?impolicy=resizecrop&rw=432&ra=fit",
     price: 3000,
     location: "Rajkot",
     state: "Gujarat",
@@ -183,7 +183,7 @@ const sampleListings = [
     title: "Srinagar Houseboat Experience",
     description:
       "Stay in a traditional houseboat on the serene Dal Lake in Srinagar. Enjoy shikara rides and breathtaking views of the Himalayas.",
-    image:"https://images.unsplash.com/photo-1610357513964-c08095baf73e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/12750077/pexels-photo-12750077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 2000,
     location: "Srinagar",
     state: "Jammu and Kashmir",
@@ -193,7 +193,7 @@ const sampleListings = [
     title: "Chennai Beach House",
     description:
       "Relax on the sandy shores of Chennai in a beachfront house. Enjoy seafood delicacies and vibrant nightlife.",
-    image:"https://images.unsplash.com/photo-1605563902184-34bb4adada4f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/10070972/pexels-photo-10070972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 1500,
     location: "Chennai",
     state: "Tamil Nadu",
@@ -203,7 +203,7 @@ const sampleListings = [
     title: "Madurai Temple Retreat",
     description:
       "Explore the ancient temples of Madurai from a serene retreat. Witness religious ceremonies and architectural marvels.",
-    image:"https://images.unsplash.com/photo-1612301739282-762ea42b4d07?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://www.savaari.com/blog/wp-content/uploads/2022/11/Temple_de_Minakshi01.jpg",
     price: 1000,
     location: "Madurai",
     state: "Tamil Nadu",
@@ -213,7 +213,7 @@ const sampleListings = [
     title: "Aurangabad Caves Exploration",
     description:
       "Discover the ancient caves of Aurangabad from a comfortable base. Marvel at intricate carvings and learn about Buddhist history.",
-    image:"https://images.unsplash.com/photo-1573575932377-907e96ad3b9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://plus.unsplash.com/premium_photo-1697730376109-86bb94cd36ed?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 1200,
     location: "Aurangabad",
     state: "Maharashtra",
@@ -223,7 +223,7 @@ const sampleListings = [
     title: "Amritsar Golden Temple Homestay",
     description:
       "Experience the spiritual aura of the Golden Temple in Amritsar from a cozy homestay. Witness the mesmerizing evening ceremony.",
-    image:"https://images.unsplash.com/photo-1618129290465-e09f8a1b138f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/5819271/pexels-photo-5819271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 1800,
     location: "Amritsar",
     state: "Punjab",
@@ -233,7 +233,7 @@ const sampleListings = [
     title: "Lucknow Nawabi Mansion",
     description:
       "Live like a Nawab in a grand mansion in Lucknow. Indulge in culinary delights and explore the city's rich heritage.",
-    image:"https://images.unsplash.com/photo-1542362062-7df30b5c19b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://buoyantfeet.com/wp-content/uploads/2019/04/img_20190206_105827-01.jpeg",
     price: 2500,
     location: "Lucknow",
     state: "Uttar Pradesh",
@@ -243,7 +243,7 @@ const sampleListings = [
     title: "Guwahati Riverfront Retreat",
     description:
       "Escape to a peaceful retreat on the banks of the Brahmaputra River in Guwahati. Explore wildlife and cultural attractions.",
-    image:"https://images.unsplash.com/photo-1607406383695-c62b2fd3ddc4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.unsplash.com/photo-1594102552386-793e5a27ad10?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     price: 1500,
     location: "Guwahati",
     state: "Assam",
@@ -253,7 +253,7 @@ const sampleListings = [
     title: "Bengaluru Tech Hub Apartment",
     description:
       "Experience the vibrant tech culture of Bengaluru from a stylish apartment. Explore bustling markets and innovative startups.",
-    image:"https://images.unsplash.com/photo-1575926680220-bbd9c2d9c51b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/11419459/pexels-photo-11419459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 2000,
     location: "Bengaluru",
     state: "Karnataka",
@@ -263,7 +263,7 @@ const sampleListings = [
     title: "Hyderabad Nawabi Palace",
     description:
       "Live like royalty in a Nawabi palace in Hyderabad. Explore historic landmarks and savor authentic Hyderabadi cuisine.",
-    image:"https://images.unsplash.com/photo-1606144345898-330ec1e60462?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/18452794/pexels-photo-18452794/free-photo-of-charminar-mosque-in-hyderabad-in-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 2800,
     location: "Hyderabad",
     state: "Telangana",
@@ -273,7 +273,7 @@ const sampleListings = [
     title: "Tirupati Temple Pilgrimage",
     description:
       "Embark on a spiritual journey to the sacred temples of Tirupati. Seek blessings and witness religious rituals.",
-    image:"https://images.unsplash.com/photo-1559582934-80b67e4436d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/1280px-Tirumala_090615.jpg",
     price: 1000,
     location: "Tirupati",
     state: "Andhra Pradesh",
@@ -283,7 +283,7 @@ const sampleListings = [
     title: "Nainital Lakeside Retreat",
     description:
       "Relax by the tranquil lakes of Nainital in a cozy retreat. Enjoy boating and stunning views of the surrounding mountains.",
-    image:"https://images.unsplash.com/photo-1540225124871-8d928f0e5ef0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://i0.wp.com/stampedmoments.com/wp-content/uploads/2022/09/nainital.jpg?resize=1536%2C864&ssl=1",
     price: 1800,
     location: "Nainital",
     state: "Uttarakhand",
@@ -293,7 +293,7 @@ const sampleListings = [
     title: "Jodhpur Desert Camp",
     description:
       "Experience the magic of the Thar Desert in a luxury camp in Jodhpur. Enjoy camel safaris and traditional Rajasthani entertainment.",
-    image:"https://images.unsplash.com/photo-1564754910082-92a6c4641c77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/17/76/cb.jpg",
     price: 2200,
     location: "Jodhpur",
     state: "Rajasthan",
@@ -303,7 +303,7 @@ const sampleListings = [
     title: "Gangtok Mountain Retreat",
     description:
       "Escape to the serene mountains of Gangtok in a cozy retreat. Explore monasteries and enjoy panoramic views of Kanchenjunga.",
-    image:"https://images.unsplash.com/photo-1550082673-9f5a0a424490?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://www.esikkimtourism.in/wp-content/uploads/2019/04/knchnjngahlls.jpg",
     price: 1600,
     location: "Gangtok",
     state: "Sikkim",
@@ -313,7 +313,7 @@ const sampleListings = [
     title: "Thiruvananthapuram Beach Resort",
     description:
       "Relax on the golden sands of Thiruvananthapuram in a beach resort. Indulge in Ayurvedic treatments and water sports.",
-    image:"https://images.unsplash.com/photo-1601652332225-7cd5b9bbf637?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image:"https://images.pexels.com/photos/18876569/pexels-photo-18876569/free-photo-of-palm-trees-and-umbrella-on-beach.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     price: 2000,
     location: "Thiruvananthapuram",
     state: "Kerala",

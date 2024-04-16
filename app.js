@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -7,10 +9,11 @@ const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");//help for create template in websites
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/IncredibleIndia";
+// const dbUrl = process.env.ATLASDB_URL;
 
-async function main() {
-  await mongoose.connect(MONGO_URL);
-}
+// async function main() {
+//   await mongoose.connect(MONGO_URL);
+// }
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
@@ -28,6 +31,9 @@ main()
     console.log(err);
   });
 
+  async function main() {
+    await mongoose.connect(MONGO_URL);
+  }
 
   app.get("/", (req, res) => {
     // res.send("Hello, I am groot");

@@ -12,6 +12,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.9",
     "ejs-mate": "^4.0.0",
     "expess": "^0.0.1-security",
