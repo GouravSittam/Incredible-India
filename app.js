@@ -8,8 +8,8 @@ const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");//help for create template in websites
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/IncredibleIndia";
-// const dbUrl = process.env.ATLASDB_URL;
+// const MONGO_URL = "mongodb://127.0.0.1:27017/IncredibleIndia";
+const dbUrl = process.env.ATLASDB_URL;
 
 // async function main() {
 //   await mongoose.connect(MONGO_URL);
@@ -32,12 +32,12 @@ main()
   });
 
   async function main() {
-    await mongoose.connect(MONGO_URL);
+    await mongoose.connect(dbUrl);
   }
 
   app.get("/", (req, res) => {
-    // res.send("Hello, I am groot");
-    res.render("listings/home.ejs");
+    res.send("Hello, I am groot");
+    // res.render("listings/home.ejs");
   });
 
   app.get("/book", (req, res) => {

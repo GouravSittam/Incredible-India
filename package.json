@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "20.12.1"
+  },
   "name": "incredible-india",
   "version": "1.0.0",
   "description": "\"Incredible India: Explore diverse culture and attractions. Built with HTML/CSS/JS/Node.js/Bootstrap.",
